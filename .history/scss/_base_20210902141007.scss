@@ -1,0 +1,78 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* using rem unit */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-family: $primary-font;
+  font-size: 18px;
+  line-height: 1;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+input {
+  line-height: normal;
+}
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $secondary-font;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title {
+  display: block;
+  font-size: 22px;
+  line-height: lineH(35, 22);
+  color: $gray;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.text {
+  display: block;
+  font-weight: 400;
+  color: $gray-light;
+  line-height: lineH(34, 18);
+  &--small {
+    font-size: 14px;
+    color: inherit;
+  }
+}

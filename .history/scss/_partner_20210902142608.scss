@@ -1,0 +1,8 @@
+.partner {
+  padding: 15px 0;
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px 0;
+  }
+}

@@ -1,0 +1,26 @@
+.team {
+  padding: 150px 0;
+  background-color: $gray-lightest;
+  &-main {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+  }
+  &-content {
+    max-width: 370px;
+  }
+  &-desc {
+    margin-bottom: 50px;
+  }
+  &-images {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+  }
+  &-image2 {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: auto;
+  }
+}

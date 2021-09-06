@@ -1,0 +1,20 @@
+.footer {
+  &-top {
+    padding: 150px 0;
+    background-color: $gray-dark;
+  }
+  &-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 200px;
+  }
+  &-logo {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  &-desc {
+    font-size: 16px;
+    color: $gray-light2;
+    line-height: lineH(30, 16);
+  }
+}

@@ -1,0 +1,15 @@
+.partner {
+  padding: 150px 0;
+  &-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px 0;
+  }
+  &-item {
+    padding: 0 45px;
+    display: block;
+    &:hover img {
+      opacity: 0.3;
+    }
+  }
+}

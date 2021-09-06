@@ -1,0 +1,14 @@
+.contact {
+  padding: 150px 0;
+  background: url("../images/contact-bg.png") no-repeat center / cover;
+  &-container {
+    max-width: 570px;
+    margin: 0 auto;
+  }
+  &-header {
+    text-align: center;
+  }
+  &-heading {
+    color: #fff;
+  }
+}

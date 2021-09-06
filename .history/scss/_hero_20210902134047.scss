@@ -1,0 +1,9 @@
+.hero {
+  &-image {
+    margin-left: auto;
+  }
+  &-content {
+    position: relative;
+    top: 50%;
+  }
+}

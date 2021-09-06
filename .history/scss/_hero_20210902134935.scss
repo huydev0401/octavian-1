@@ -1,0 +1,23 @@
+.hero {
+  position: relative;
+  &-image {
+    margin-left: auto;
+    max-width: 65%;
+  }
+  &-content {
+    position: absolute;
+    left: 18.75%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &-caption {
+    font-size: 72px;
+    color: $gray;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  &-heading {
+    font-size: 150px;
+    font-weight: 800;
+  }
+}

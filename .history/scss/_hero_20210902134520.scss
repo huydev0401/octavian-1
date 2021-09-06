@@ -1,0 +1,12 @@
+.hero {
+  position: relative;
+  &-image {
+    margin-left: auto;
+  }
+  &-content {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

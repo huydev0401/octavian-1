@@ -1,0 +1,8 @@
+.team {
+  padding: 150px 0;
+  background-color: $gray-lightest;
+  &-main {
+    display: flex;
+    align-items: center;
+  }
+}

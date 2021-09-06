@@ -1,0 +1,13 @@
+.menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100%;
+  width: 300px;
+  &-list {
+    padding: 50px 20px;
+  }
+}
